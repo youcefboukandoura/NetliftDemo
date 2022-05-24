@@ -27,11 +27,13 @@
     <None Remove="UI\PlacesPage\" />
     <None Remove="Resource\" />
     <None Remove="UI\MainPage\ImageSourceDestination.png" />
+    <None Remove="Model\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="UI\" />
     <Folder Include="UI\MainPage\" />
     <Folder Include="UI\PlacesPage\" />
     <Folder Include="Resource\" />
+    <Folder Include="Model\" />
   </ItemGroup>
 </Project>

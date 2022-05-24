@@ -11,21 +11,22 @@ namespace NetliftDemo
             InitializeComponent();
         }
 
-        public async void OnOriginClick()
+        public async void OnOriginClick(object sender, EventArgs e)
         {
-            Console.WriteLine("**** Hi mate");
-            Console.Out.WriteLine(" on origin click");
-            PlacesPage page = new PlacesPage();
+            var page = new PlacesPage();
+            await Navigation.PushAsync(page);
+        }
+
+        public async void OnDestinationClick(object sender, EventArgs e)
+        {
+            var page = new PlacesPage();
             await Navigation.PushAsync(page);
         }
 
 
-        async void CreateButton_Clicked(System.Object sender, System.EventArgs e)
+        private void CreateButton_Clicked(object sender, EventArgs e)
         {
-            Console.WriteLine("**** Hi mate");
-            Console.Out.WriteLine(" on origin click");
-            PlacesPage page = new PlacesPage();
-            await Navigation.PushAsync(page);
+         
         }
     }
 }
