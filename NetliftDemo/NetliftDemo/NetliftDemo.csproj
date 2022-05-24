@@ -25,10 +25,13 @@
     <None Remove="UI\MainPage\" />
     <None Remove="Xamarin.Forms.Maps" />
     <None Remove="UI\PlacesPage\" />
+    <None Remove="Resource\" />
+    <None Remove="UI\MainPage\ImageSourceDestination.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="UI\" />
     <Folder Include="UI\MainPage\" />
     <Folder Include="UI\PlacesPage\" />
+    <Folder Include="Resource\" />
   </ItemGroup>
 </Project>

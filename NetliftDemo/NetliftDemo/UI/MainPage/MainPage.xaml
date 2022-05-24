@@ -41,7 +41,11 @@
                Padding="16">
             <StackLayout>
             <StackLayout Orientation="Horizontal">
-                <StackLayout Scale="24" Padding="16" />
+         
+                    <Image   Aspect="AspectFit"
+       VerticalOptions="FillAndExpand"
+                             Source="ImageSourceDestination.png" />
+          
                 <StackLayout HorizontalOptions="FillAndExpand" >
                     <Label Text="ORIGIN" FontSize="Micro" />
                     <Label x:Name="OriginLabel"
